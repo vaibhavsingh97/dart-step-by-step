@@ -1,4 +1,8 @@
+enum colors {red, blue, green}
+
 // Main function
 main(List<String> arguments) {
-  print('Hello world: ${enums.calculate()}!');
+  print(colors.values);
+  print(colors.red);
+  print(colors.blue);
 }
