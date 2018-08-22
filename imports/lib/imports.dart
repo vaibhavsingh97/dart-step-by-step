@@ -12,7 +12,7 @@ String encode(String input){
 }
 
 String decode(String input){
-  List dbytes = utf8.decode(input);
-  String decode = base64.decode(dbytes);
+  List dbytes = base64.decode(input);
+  String decode = utf8.decode(dbytes);
   return decode;
 }
